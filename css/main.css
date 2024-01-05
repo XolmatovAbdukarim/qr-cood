@@ -31,6 +31,9 @@ body {
     border-radius: 20px;
     background: var(--White, #fff);
     box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .container {
@@ -39,6 +42,7 @@ body {
     margin-top: 16px;
     margin-left: 16px;
     margin-right: 16px;
+    border-radius: 10px;
     background: var(--blue-shade);
 }
 
@@ -61,7 +65,6 @@ body {
 }
 
 .text {
-    padding-left: 34px;
     max-width: 256px;
     width: 100%;
     color: var(--Grey);
