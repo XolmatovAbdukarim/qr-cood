@@ -1,3 +1,4 @@
+@import url(./shrift.css);
 :root {
     --Light-Grey: #D5E1EF;
     --blue-shade: #3685FF;
@@ -6,7 +7,10 @@
     --White: #fff;
     --outfit: Outfit;
 }
-
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
 
 
 
@@ -42,4 +46,28 @@ body {
     width: 160px;
     height: 160px;
     margin: 64px 64px;
+}
+
+.title {
+    padding: 15px 15px;
+    color: var(--Dark-Navy);
+    text-align: center;
+    font-family: var(--outfit);
+    font-size: 22px;
+    font-weight: 700;
+    max-width: 288px;
+    width: 100%;
+
+}
+
+.text {
+    padding-left: 34px;
+    max-width: 256px;
+    width: 100%;
+    color: var(--Grey);
+    text-align: center;
+    font-family: var(--outfit);
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.188px;
 }
